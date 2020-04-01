@@ -10,6 +10,8 @@ create the following database structure:
 
 ## Instructions
 
+**Before ANYTHING, run `bundle install`**
+
 #### Migrations
 
 Write migrations to create the following tables:
