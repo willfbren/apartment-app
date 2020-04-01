@@ -52,8 +52,12 @@ seed data by running `rake db:seed`.
     * Click on a apartment to go to the apartment details page
 * Create a new apartment
     * With it's address
+    * After creating the apartment, send the user to see the list of all apartments
 * Create a new tennant
     * With their name
+    * After creating the tennant, send the user to see the list of all tennants
 * Delete an apartment
+    * Then send the user to see the list of all apartments
 * Delete a tennant
+    * Then send the user to see the list of all tennants
 * Navigate your application using links instead of typing in the URL bar
