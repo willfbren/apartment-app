@@ -1,0 +1,14 @@
+<form method="POST" action="/tenants/<%=@tenant.id%>">
+    <input type="hidden" name="_method" value="PATCH">
+    <label>Updated Name</label>
+    <input type="text" name="name" value="<%= @tenant.name %>">
+    <label>Updated Address ID</label>
+    <input type="text" name="apartment_id" value="<%= @tenant.apartment_id %>">
+    <input type="submit">
+</form>
+
+<form method="POST" action="/tenants/<%= @tenant.id %>">
+    <input id="hidden" type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="Delete">
+</form>
+
